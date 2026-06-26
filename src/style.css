@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+:root{
+    --navy:#071A35;
+    --teal:#0F766E;
+    --light:#F8FAFC;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    margin:0;
+    font-family:Poppins,sans-serif;
+    background:linear-gradient(160deg,#071A35,#0F766E);
+    min-height:100vh;
+    color:white;
+  }
